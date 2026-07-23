@@ -1,44 +1,34 @@
 <h1 align="center">Hi, I'm Pratheep</h1>
-<h3 align="center">Security-focused Open Source Contributor · Frappe / ERPNext / HRMS</h3>
+<h3 align="center">Software Engineer · Security-Minded Backend Development · Applied AI</h3>
 
-<p align="center">
-  I find the bugs that don't show up until production does.
-</p>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Frappe](https://img.shields.io/badge/-Frappe-0089D6?style=flat-square&logo=framework&logoColor=white)
+![MariaDB](https://img.shields.io/badge/-MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=graphql&logoColor=white)
+![RAG](https://img.shields.io/badge/-RAG-4B0082?style=flat-square&logo=databricks&logoColor=white)
 
 ---
 
-### What I do
+### About
 
-I dig into large, real-world Python codebases and find the gaps that matter most: swallowed exceptions, missing permission checks, and broken cancellation/lifecycle logic — the kind of issues that don't fail loudly, they just quietly corrupt data or open a door. My focus is the Frappe ecosystem (ERPNext & HRMS), where I've built a consistent track record of finding and fixing real, reproducible bugs — not cosmetic ones.
+I work on backend systems where correctness and security aren't an afterthought — mainly within the Frappe ecosystem (ERPNext, HRMS), where I've spent time auditing and hardening production code. My focus areas are permission/authorization logic, data lifecycle correctness, and error handling that fails safely instead of silently.
 
-All of the work below was done in a single 30-day window.
+Alongside that, I build with LLM-based systems — retrieval-augmented generation, agentic workflows with LangChain and LangGraph, and applying the same rigor from systems work to how these pipelines are designed and evaluated.
 
-### Track record (30 days)
+### Focus areas
 
-**frappe/hrms**
-- 9 PRs merged into production
-- Fixed missing/incorrect permission checks across whitelisted endpoints (shift assignment, leave allocation, attendance, salary slips)
-- Fixed cancellation-state bugs — cancelled records (Leave Allocation, Attendance, Vehicle Log, Shift Assignment) leaking into reports, timelines, or blocking new actions
-- Fixed a MariaDB reserved-word bug breaking date filters
-- 1 PR open, 8 additional PRs submitted and closed after review
-
-**frappe/erpnext**
-- 1 issue resolved and merged
-- 5 additional issues currently open, covering silently swallowed exceptions in pricing rules, bank transaction rules, RFQ to Supplier Quotation flow, and statement-of-accounts email resolution
-- Reported a subtle falsy-zero bug in bank statement import mapping logic
+- **Backend & Framework Internals** — Python, Frappe, MariaDB
+- **Security & Correctness** — permission checks, lifecycle/state handling, defensive error handling in large codebases
+- **Applied AI** — RAG pipelines, agent orchestration with LangChain and LangGraph
+- **Open Source** — contributing fixes upstream rather than working around issues locally
 
 ### How I work
 
-- I read code like an attacker and a maintainer at the same time — every fix is grounded in the actual contract/behavior of the system, not a guess.
-- I don't just report a bug — I ship a fix, a reproducer, and a clean PR that respects existing architecture and review standards.
-- Permission and authorization bugs are my specialty: whitelisted functions that skip `frappe.has_permission()` checks are exactly the kind of gap I go looking for.
-
-### Tech I work with
-
-`Python` · `Frappe Framework` · `MariaDB` · `ERPNext` · `HRMS` · Static & runtime security analysis
+I read code like both an attacker and a maintainer — every change is grounded in the system's actual contract and behavior, not assumptions. I'd rather ship a small, well-reasoned fix with a clear reproduction path than a large, unreviewable one.
 
 ---
 
 <p align="center">
-  <i>Quiet bugs. Loud fixes.</i>
+  <i>Building systems that hold up under scrutiny.</i>
 </p>
