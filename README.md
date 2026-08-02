@@ -23,10 +23,10 @@ Alongside backend engineering, I develop **LLM-powered applications**, including
 
 ## Focus Areas
 
-- 🐍 **Backend Development** — Python, Frappe, MariaDB
-- 🔒 **Application Security** — Authorization, Permission Models, Secure Design
-- 🤖 **Applied AI** — RAG, LangChain, LangGraph, AI Agents
-- 🌍 **Open Source** — ERPNext & HRMS Contributions
+- **Backend Development** — Python, Frappe, MariaDB
+- **Application Security** — Authorization, Permission Models, Secure Design
+- **Applied AI** — RAG, LangChain, LangGraph, AI Agents
+- **Open Source** — ERPNext & HRMS Contributions
 
 ## Engineering Philosophy
 
