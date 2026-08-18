@@ -1,4 +1,4 @@
-<div align="center">
+<div >
 
 # Pratheep Selvam
 **Backend Engineer · Application Security · Applied AI**
