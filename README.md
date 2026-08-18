@@ -19,4 +19,4 @@ I also build applied AI systems: RAG pipelines, multi-agent workflows, and LLM-b
 
 ---
 
-📫 pratheeps2024@gmail.com · [LinkedIn](https://linkedin.com/in/pratheep2006)
+pratheeps2024@gmail.com · [LinkedIn](https://linkedin.com/in/pratheep2006)
