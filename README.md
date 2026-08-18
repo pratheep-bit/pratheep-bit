@@ -4,7 +4,6 @@
 **Backend Engineer · Application Security · Applied AI**
 
 </div>
----
 
 I'm a backend engineer who cares about systems that hold up under real conditions — correct data flow, sound authorization, and failure that's safe rather than silent.
 
