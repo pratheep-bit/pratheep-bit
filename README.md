@@ -7,13 +7,13 @@
 
 ---
 
-I build backend systems where correctness and security aren't optional — mainly inside the **Frappe/ERPNext ecosystem**. 11+ merged PRs fixing permission and authorization bugs in production codebases used by real companies.
+I'm a backend engineer who cares about systems that hold up under real conditions — correct data flow, sound authorization, and failure that's safe rather than silent.
 
-Currently building **frapAST**, a static/dynamic security analyzer for Frappe apps — because most vulnerabilities in this ecosystem get found the hard way, after they ship.
+My flagship project is **[frapAST](https://github.com/pratheep-bit/frapast)** — a static/dynamic security analyzer I built for the Frappe/ERPNext ecosystem, born from finding real permission and authorization bugs that shipped to production and stayed there until someone looked.
 
-I also build applied AI systems: RAG pipelines, multi-agent workflows, and LLM-backed backends for clients across legal, SaaS, and e-commerce.
+Beyond that, I build backend systems and applied AI — RAG pipelines, multi-agent workflows, and LLM-backed services — for clients across legal, SaaS, and e-commerce.
 
-**Stack:** Python · Frappe · MariaDB · LangChain · LangGraph
+**Stack:** Python · FastAPI · Frappe · MariaDB · LangChain · LangGraph
 
 **How I work:** verify before you trust it. A fix isn't done until you've seen it run.
 
